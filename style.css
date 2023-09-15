@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #000;
+  height: 100%;
+}
+
+#nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+}
+#bottom {
+  border-top: solid silver;
+  border-radius: 1%;
+}
+#navprt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  padding: 40px;
+}
+#nav h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+#nav i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+#nav h5 {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+#nav img {
+  height: 40px;
+}
+#line {
+  width: 70px;
+  height: 2px;
+  background-color: red;
+}
+#content {
+  height: calc(100% - 155px);
+  width: 100%;
+
+  display: flex;
+}
+#left {
+  width: 36%;
+  height: 100%;
+  font-size: 60px;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+span {
+  color: rgb(224, 17, 17);
+}
+#centre {
+  width: 36%;
+  height: 100%;
+  background-color: #c92626;
+}
+#right {
+  width: 28%;
+  height: 100%;
+}
+#left button {
+  background-color: red;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 10%;
+  font-weight: 900;
+  margin-top: 50px;
+}
+#centre img {
+  height: 100%;
+  margin-left: -70px;
+  width: 130%;
+  border-left-width: -30px;
+}
+#right {
+  background-image: url(https://e0.pxfuel.com/wallpapers/1008/683/desktop-wallpaper-maate-black-coca-cola-bottle-coca-cola-bottel-thumbnail.jpg);
+  height: 100%;
+  width: 22%;
+}
+#right h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 75px;
+}
+#right h4 {
+  margin-top: 115%;
+  margin-left: 60px;
+  font-size: 30px;
+}
